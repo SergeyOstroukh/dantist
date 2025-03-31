@@ -61,7 +61,6 @@ const config: Config = {
     './src/shared/**/*.{js,ts,jsx,tsx,mdx}',
     './src/features/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  darkMode: ['class'],
   plugins: [
     plugin(function ({ addUtilities }) {
       const newUtilities = {
