@@ -10,7 +10,7 @@ import WhatsApp from "../images/WhatsApp.svg"
 const Header = () => {
   return (
     <div className="flex bg-[#F3FEFE]">
-      <div className="flex flex-1 p-4 justify-between min-w-[300px] items-center">
+      <div className="flex flex-1 p-4 justify-between items-center">
         <div className="flex flex-col">
           <div className="flex flex-col lg:flex text-white items-center justify-end pb-2 text-xs h-[60px] w-[60px] bg-gradient-to-b from-[#38E0DE] to-[#0699B8] rounded-full">
             <Image
