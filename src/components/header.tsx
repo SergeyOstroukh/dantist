@@ -1,16 +1,14 @@
-import React from 'react';
-import Image from 'next/image'
-import Tooth from '../images/Tooth.svg';
-import Burger from '../images/Burger.svg';
-import Geo from '../images/Geo.svg';
-import Clock from '../images/Clock.svg';
-import Telegram from '../images/Telegram.svg';
-import WhatsApp from '../images/WhatsApp.svg';
-
-
-
+import React from "react"
+import Image from "next/image"
+import Tooth from "../images/Tooth.svg"
+import Burger from "../images/Burger.svg"
+import Geo from "../images/Geo.svg"
+import Clock from "../images/Clock.svg"
+import Telegram from "../images/Telegram.svg"
+import WhatsApp from "../images/WhatsApp.svg"
 
 const Header = () => {
+
     return (
         <div className='flex bg-[#F3FEFE]'>
             <div className='flex flex-1 p-4 justify-between min-w-[300px] items-center'>
@@ -61,4 +59,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Header
