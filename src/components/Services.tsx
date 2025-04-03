@@ -2,13 +2,13 @@ import { UslugiCard } from "@/components/shared/UslugiCard"
 import surgery from "../../public/surgery.svg"
 
 export const Services = () => {
-  const actionsList = ["sfdsdf", "sfdsdf", "sfdsdf", "sfdsdf"]
+  const actionsList = ["тест", "тест", "тест", "тест"]
 
   return (
     <div>
       <UslugiCard
         title="Хирургия"
-        description="jhsfgdbalkasd bfkjsfklsdklfsdkjfs dflksdbfsd safdasdfsdfg sd sdf gsd"
+        description="тест"
         actions={actionsList}
         imageSrc={surgery}
       />

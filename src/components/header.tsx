@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <div className="flex bg-[#F3FEFE] min-w-[300px]">
       <div className="flex flex-1 p-4 justify-between  items-center">
-        <div className="flex flex-col">
+        <div className="flex flex-col md:flex-row md:items-center">
           <div className="flex flex-col lg:flex text-white items-center justify-end pb-2 text-xs h-[60px] w-[60px] bg-gradient-to-b from-[#38E0DE] to-[#0699B8] rounded-full">
             <Image
               className="pt-4"
@@ -23,27 +23,27 @@ const Header = () => {
             <span className="">Dantist</span>
             <span className="mt-[-6px] ">Clinic</span>
           </div>
-          <span className="flex flex-wrap text-lg/5 text-[#099DBA]">
-            Cтоматологическая клиника
+          <span className="flex flex-nowrap font-bold text-lg/5 text-[#099DBA] md:text-[20px]  md:pl-4 md:font-bold lg:text-[16px]">
+            Cтоматологическая <br />клиника
           </span>
         </div>
         <div className="hidden md:flex flex-col items-start">
           <div className="flex">
             <Image src={Geo} alt="geo" height={22} width={20} />
-            <span className="text-2xl text-[#099DBA] ml-2">Адрес</span>
+            <span className="text-2xl text-[#099DBA] ml-2 lg:text-[18px]">Адрес</span>
           </div>
           <div>
-            <span className="font-bold">г. Минск, ул. Нововиленская д. 45</span>
+            <span className='lg:text-[16px]'>г. Минск, ул. Нововиленская <br />д.45 </span>
           </div>
         </div>
         <div className="hidden lg:flex flex-col">
           <div className="flex">
             <Image src={Clock} alt="Clock" height={22} width={20} />
-            <span className="text-2xl text-[#099DBA] ml-2">Время работы</span>
+            <span className="text-2xl text-[#099DBA] ml-2 lg:text-[18px]">Время работы</span>
           </div>
           <div>
-            <span className="font-light">
-              Работаем без выходных с 9:00 до 21:00
+            <span className="font-light lg:text-[16px]">
+              Работаем без выходных <br />с 9:00 до 21:00
             </span>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Header = () => {
             <Image src={WhatsApp} alt="WhatsApp" height={22} width={20} />
             <Image src={Telegram} alt="Telegram" height={22} width={20} />
           </div>
-          <div className="flex-col text-nowrap hidden lg:flex md:ml-4">
+          <div className="flex-col font-bold text-nowrap hidden lg:flex md:ml-4">
             <a className="cursor-pointer" href="tel:+375445433196">
               +375 (44) 5433196
             </a>
