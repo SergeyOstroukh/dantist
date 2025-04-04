@@ -13,7 +13,7 @@ const Consultation = () => {
                 <span className='text-[16px] text-[#099DBA]'>На бесплатной консультации врач клиники проведет диагностику всех зубов:</span>
             </div>
             <div className='flex flex-col min-w-[300px] md:flex-row '>
-                <ConsultationCard icon={con1} name='Полный осмотр и диагностика полости рта' description='При необходимости сделаем дополнительный снимок зубов, у нас в клинике'/>
+                <ConsultationCard icon={con1} name='Полный осмотр и диагностика полости рта' description='При необходимости выполним лечение в срочном порядке, у нас в клинике'/>
                 <ConsultationCard icon={con2} name='Составит 2-3 плана лечения на выбор' description='Вы сможете выбрать подходящий план лечения, исходя из бюджета'/>
                 <ConsultationCard icon={con3} name='При необходимости проведем проф. гигиену' description='Чистка зубов в 4 этапа'/>
             </div>
