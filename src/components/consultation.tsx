@@ -7,7 +7,7 @@ import {Button} from "@/components/shared/Button";
 
 const Consultation = () => {
     return (
-        <div className='flex flex-col items-center text-center gap-4 mb-6'>
+        <div className='flex flex-col items-center text-center gap-4 xl:w-[80%] mx-auto mb-6'>
             <div className='flex flex-col gap-4'>
                 <span className='text-[20px] font-bold'>Бесплатная консультация врача</span>
                 <span className='text-[16px] text-[#099DBA]'>На бесплатной консультации врач клиники проведет диагностику всех зубов:</span>

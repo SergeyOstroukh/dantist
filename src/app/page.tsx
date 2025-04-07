@@ -4,6 +4,8 @@ import {Services} from "@/components/Services"
 import Main from "@/components/main"
 import InfoCards from "@/components/InfoCards";
 import Consultation from "@/components/consultation";
+import Maps from "@/components/maps";
+
 
 export default function Page() {
     return (
@@ -13,6 +15,7 @@ export default function Page() {
             <InfoCards/>
             <Consultation />
             <Services/>
+            <Maps />
             <Footer/>
         </div>
     )
