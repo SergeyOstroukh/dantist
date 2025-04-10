@@ -18,6 +18,10 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+        <head>
+            <title>{metadata.title || "Dantist clinic"}</title>
+            <link rel="icon" href="/favicon.ico" type="image/png"/>
+        </head>
         <body>{children}</body>
         </html>
     )
