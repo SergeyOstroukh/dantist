@@ -10,7 +10,9 @@
     "lint": "eslint --fix src/**/*.{tsx,ts,jsx,js} --no-error-on-unmatched-pattern && stylelint --fix src/{,*/}*.{scss,css} --allow-empty-input"
   },
   "dependencies": {
+    "@iminside/react-yandex-maps": "^1.2.7",
     "@tailwindcss/postcss": "^4.0.17",
+    "@types/yandex-maps": "^2.1.36",
     "next": "15.2.4",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
@@ -18,15 +20,15 @@
     "tailwindcss": "^4.0.17"
   },
   "devDependencies": {
-    "@it-incubator/prettier-config": "^0.1.2",
-    "eslint-import-resolver-node": "^0.3.9",
-    "eslint-plugin-perfectionist": "^4.9.0",
     "@eslint/eslintrc": "^3",
+    "@it-incubator/prettier-config": "^0.1.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
+    "eslint-import-resolver-node": "^0.3.9",
+    "eslint-plugin-perfectionist": "^4.9.0",
     "typescript": "^5"
   }
 }
