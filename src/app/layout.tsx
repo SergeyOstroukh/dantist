@@ -18,10 +18,6 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <head>
-            <link rel="icon" href="favicon.ico" type="image/png"/>
-            <title>{metadata.title}</title>
-        </head>
         <body>{children}</body>
         </html>
     )
