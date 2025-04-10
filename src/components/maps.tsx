@@ -1,23 +1,31 @@
 'use client'
 
 import React from 'react';
+import {YMaps, Map, Placemark} from '@iminside/react-yandex-maps';
+import ContactBlock from "@/components/shared/ContactBlock";
+
 
 const Maps = () => {
-    const minskLat = 53.902334;
-    const minskLng = 27.561879;
-    
-    const apiKey = 'bb10823d-997a-440e-9425-0ab910d6234a';
-    
-    const mapUrl = `https://static-maps.yandex.ru/v1?ll=${minskLng},${minskLat}&lang=ru_RU&size=600,450&z=13&pt=${minskLng},${minskLat},pmwtm1&apikey=${apiKey}`;
-    
+    const defaultState = {
+        center: [53.935395, 27.530947],
+        zoom: 15,
+    };
+
     return (
-        <div className='w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] relative'>
-            <img 
-                src={mapUrl} 
-                alt="Map of Minsk"
-                className='w-full h-full object-cover'
-            />
+        <div className='flex flex-col md:relative w-full p-6 h-[300pх] '>
+            <div className='flex justify-center md:absolute md:top-8 md:left-30 z-10'>
+                <ContactBlock/>
+            </div>
+            <div>
+                <YMaps query={{apikey: 'bb10823d-997a-440e-9425-0ab910d6234a'}}>
+                    <Map width={'100%'} height={'300px'} defaultState={defaultState}>
+                        <Placemark geometry={[53.935395, 27.530947]}/>
+                    </Map>
+                </YMaps>
+            </div>
+
         </div>
+
     );
 };
 
