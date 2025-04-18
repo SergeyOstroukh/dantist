@@ -17,12 +17,14 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <html lang="en">
+        <html lang="ru">
         <head>
-            <title>Dantist clinic</title>
-            <link rel="icon" href="/favicon.ico" type="image/png"/>
+            <meta charSet="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Дантист клиник</title>
+            <link rel="icon" href="/favicon.ico" type="image/png" />
         </head>
         <body>{children}</body>
         </html>
-    )
+    );
 }
