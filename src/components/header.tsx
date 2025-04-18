@@ -23,9 +23,12 @@ const Header = () => {
             <span className="">Dantist</span>
             <span className="mt-[-6px] ">Clinic</span>
           </div>
-          <span className="flex flex-nowrap font-bold text-lg/5 text-[#099DBA] md:text-[20px]  md:pl-4 md:font-bold lg:text-[16px]">
-            Cтоматологическая <br />клиника
-          </span>
+          <div className='flex flex-col'>
+            <h1 className="flex font-bold text-lg/5 text-[#099DBA] md:text-[20px]  md:pl-4 md:font-bold lg:text-[16px]">
+              Cтоматологическая <br /> клиника <br />
+            </h1>
+            <h2 className='text-[#099DBA] md:pl-4'>Dantist Clinic</h2>
+          </div>
         </div>
         <div className="hidden md:flex flex-col items-start">
           <div className="flex">
@@ -54,7 +57,7 @@ const Header = () => {
           </div>
           <div className="flex-col font-bold text-nowrap hidden lg:flex md:ml-4">
             <a className="cursor-pointer" href="tel:+375445433196">
-              +375 (44) 5433196
+              +375 (29) 1758364
             </a>
             <a className="cursor-pointer" href="tel:+375291758364">
               +375 (44) 5433196
