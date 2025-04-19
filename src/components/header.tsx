@@ -1,11 +1,11 @@
 import React from "react"
 import Image from "next/image"
 import Tooth from "../images/Tooth.svg"
-import Burger from "../images/Burger.svg"
 import Geo from "../images/Geo.svg"
 import Clock from "../images/Clock.svg"
 import Telegram from "../images/Telegram.svg"
 import WhatsApp from "../images/WhatsApp.svg"
+import BurgerComponent from "@/components/shared/burgerComponent";
 
 const Header = () => {
   return (
@@ -65,9 +65,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-none items-center">
-        <Image src={Burger} alt="burger" height={60} width={60} />
-      </div>
+      <BurgerComponent />
     </div>
   )
 }
