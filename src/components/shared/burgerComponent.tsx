@@ -8,11 +8,15 @@ const BurgerComponent = () => {
     const toggleMenu = () => {
         setIsOpen((prev) => !prev);
     };
-    const menuRef = useRef(null);
+    const menuRef = useRef<HTMLDivElement | null>(null);
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
-            if (menuRef.current && !menuRef.current.contains(event.target as Node) && !(event.target as HTMLElement).closest('.burger-icon')) {
+            if (
+                menuRef.current
+                &&
+                !(event.target as HTMLElement).closest('.burger-icon')
+            )  {
                 setIsOpen(false);
             }
         };
