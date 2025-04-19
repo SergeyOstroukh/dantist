@@ -11,8 +11,8 @@ const BurgerComponent = () => {
     const menuRef = useRef(null);
 
     useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (menuRef.current && !menuRef.current.contains(event.target) && !event.target.closest('.burger-icon')) {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (menuRef.current && !menuRef.current.contains(event.target as Node) && !(event.target as HTMLElement).closest('.burger-icon')) {
                 setIsOpen(false);
             }
         };
