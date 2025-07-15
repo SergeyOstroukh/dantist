@@ -21,7 +21,7 @@ export default function RootLayout({
         <head>
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <meta name="yandex-verification" content="26ae3287c0ac46cb" />
+            <meta name="yandex-verification" content="00c260b639088c45" />
             <title>Дантист клиник</title>
             <link rel="icon" href="/favicon.ico" type="image/png" />
         </head>
