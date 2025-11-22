@@ -99,6 +99,7 @@ const Header = () => {
               </a>
             </p>
             <button
+              type="button"
               onClick={handleCloseModal}
               className="w-full bg-[#099DBA] text-white py-2 px-4 rounded-lg font-semibold hover:bg-[#0699B8] transition-colors"
             >
