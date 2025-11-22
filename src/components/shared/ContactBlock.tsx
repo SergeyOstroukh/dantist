@@ -13,10 +13,7 @@ const ContactBlock = () => {
                 <span className='text-[18px] md:text-[20px]'>г. Минск, ул. Нововиленская, <br/>д. 45</span>
                 <span className='text-[18px] md:text-[16px]'>c 9.00 до 21.00</span>
                 <a className="cursor-pointer text-[18px] md:text-[20px] mt-4" href="tel:+375445433196">
-                    +375 (44) 5433196
-                </a>
-                <a className="cursor-pointer text-[18px] md:text-[20px]" href="tel:+375445433196">
-                    +375 (29) 1758364
+                    +375 (29) 1515599
                 </a>
             </div>
 
