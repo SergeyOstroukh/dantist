@@ -56,11 +56,8 @@ const Header = () => {
             <Image src={Telegram} alt="Telegram" height={22} width={20} />
           </div>
           <div className="flex-col font-bold text-nowrap hidden lg:flex md:ml-4">
-            <a className="cursor-pointer" href="tel:+375445433196">
-              +375 (29) 1758364
-            </a>
-            <a className="cursor-pointer" href="tel:+375291758364">
-              +375 (44) 5433196
+            <a className="cursor-pointer" href="tel:+375291515599">
+              +375 (29) 1515599
             </a>
           </div>
         </div>
